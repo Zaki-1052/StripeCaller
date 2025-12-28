@@ -6,7 +6,7 @@ This file is for loading a single HiC contact map from different type of file.
 import numpy as np
 from gzip import open as gopen
 import os.path
-from .hic_straw_legacy import straw
+from .hic_straw import straw
 from .cooler_api import dump
 
 my_path = os.path.abspath(os.path.dirname(__file__))
